@@ -15,3 +15,28 @@ Password: (empty)
 ### Import Data
 
 Create file import.sql in src/main/resources and add INSERT commands
+
+## TWILLIO
+
+### VARIÁVEIS DE AMBIENTE NO VSCODE
+
+    {
+        "configurations": [
+            {
+                "type": "java",
+                "name": "Spring Boot-DsmetaApplication<dsmeta>",
+                "request": "launch",
+                "cwd": "${workspaceFolder}",
+                "mainClass": "com.devsuperior.dsmeta.DsmetaApplication",
+                "projectName": "dsmeta",
+                "args": "",
+                "envFile": "${workspaceFolder}/.env",
+                "env": {
+                    "TWILIO_SID":"",
+                    "TWILIO_KEY":"",
+                    "TWILIO_PHONE_FROM":"",
+                    "TWILIO_PHONE_TO":""
+                },
+            }
+        ]
+    }
