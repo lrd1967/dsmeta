@@ -40,3 +40,21 @@ Create file import.sql in src/main/resources and add INSERT commands
             }
         ]
     }
+
+## HEROKU
+
+### CAMINHO DO ARQUIVO system.properties
+
+    |
+    +--workspace_dev_superior
+    |
+    +--dsmeta
+        |
+        +--backend
+           |
+           +--dsmeta
+              |.gitignore
+              |pom.xml
+              |system.properties
+              |
+              +--src
